@@ -88,6 +88,9 @@
     
     // Text color
     _label.textColor = _config.getRightfulStyle.textColor;
+
+    // Text font
+    _label.font = _config.getRightfulStyle.textFont;
     
     // Text alignment
     _label.textAlignment = _config.getRightfulStyle.textAlignment;
