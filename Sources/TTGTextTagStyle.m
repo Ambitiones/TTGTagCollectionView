@@ -16,6 +16,7 @@
         _backgroundColor = [UIColor lightGrayColor];
         _textAlignment = NSTextAlignmentCenter;
         _textColor = [UIColor blackColor];
+        _textFont = [UIFont systemFontOfSize:15];
         _enableGradientBackground = NO;
         _cornerRadius = 4;
         _borderColor = [UIColor whiteColor];
@@ -35,6 +36,7 @@
         copy.backgroundColor = self.backgroundColor;
         copy.textAlignment = self.textAlignment;
         copy.textColor = self.textColor;
+        copy.textFont = self.textFont;
         copy.enableGradientBackground = self.enableGradientBackground;
         copy.gradientBackgroundStartColor = self.gradientBackgroundStartColor;
         copy.gradientBackgroundEndColor = self.gradientBackgroundEndColor;
