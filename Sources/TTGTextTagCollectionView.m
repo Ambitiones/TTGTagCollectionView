@@ -86,6 +86,9 @@
     // Normal background
     _label.backgroundColor = _config.getRightfulStyle.backgroundColor ?: UIColor.clearColor;
     
+    // Text color
+    _label.textColor = _config.getRightfulStyle.textColor;
+    
     // Text alignment
     _label.textAlignment = _config.getRightfulStyle.textAlignment;
 
