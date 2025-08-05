@@ -15,6 +15,8 @@
 @property (nonatomic, copy) UIColor * _Nonnull backgroundColor; // Default is [UIColor lightGrayColor]
 /// Text color
 @property (nonatomic, assign) UIColor * _Nonnull textColor; // Default is black
+/// Text font
+@property (nonatomic, assign) UIFont * _Nonnull textFont; // Default is 15
 /// Text alignment
 @property (nonatomic, assign) NSTextAlignment textAlignment; // Default is NSTextAlignmentCenter
 
